@@ -1,0 +1,56 @@
+.register-container{
+    width:100%;
+    max-width:1120px;
+    height: 100vh;
+    margin:0 auto;  /*centraliza todo os itens do container*/
+
+    display: flex; /*torda os itens flex(distancias padroes alinhados)*/
+    align-items: center; /*aplica alinhamento de centralização dos itens*/
+    justify-content: center;
+}
+
+.register-container .content{
+    width:100%;
+    padding:96px;
+    background:#f0f0f5; /*preto com 10% de opacidade (rgba)*/
+    border-radius: 8px;
+    
+    display:flex; /*torna o conteudo flex com os itens em container flex*/
+    justify-content: space-between; /*Joga a section pra esquerda e o formulario pra direita colocando espaço entre eles*/
+    align-items: center; /*alinha toda a section com os itens(formulario) no centro.*/
+}
+
+.register-container .content section{
+    width:100%;
+    max-width:380px;           /*espaço melhor entre formulario e a section */
+}
+
+.register-container .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;           /*Conteudo da section com espaçamento melhor */
+}
+
+.register-container .content section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;         /*Conteudo texto abaixo da section com espaço e font metrificados  */
+}
+
+
+.register-container .content form{
+    width:100%;
+    max-width: 450px;       /*conteudo do form com espaçamento melhor da section  */
+}
+
+.register-container .content form input{
+    margin-top:8px;      /*espaço melhor entre os inputs  */
+}
+
+.register-container .content form .input-group{
+    display:flex;       /*Pega todo grupo do input e transforma eles em container flex (cada um) */
+    
+}
+
+.register-container .content form .input-group input + input{
+  margin-left: 8px;         /*pega o input a partir do 2 input do group*/
+}

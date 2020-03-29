@@ -1,0 +1,86 @@
+.profile-container{
+    width:100%;
+    max-width:1180px;
+    padding:0 30px ;
+    margin:32px auto;   /*Estiliza espaçamentos entre os itens do container*/
+}
+
+.profile-container header{
+    display:flex;
+    align-items: center;      /*torna os itens do header flex container alinhados no centro*/
+}
+
+.profile-container header span{
+    font-size: 20px;
+    margin-left: 24px;   /*estiliza o header com seu texto*/
+}
+
+.profile-container header img{
+    height:64px;                 /*Estiliza logo be the hero(tamanho)*/
+}
+
+.profile-container header a{
+    width:260px;
+    margin-left: auto; /*Estiliza espaço entre link do button e o header com texto */
+    margin-top: 0;
+}
+
+.profile-container header button{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;                   /*estiliza espaço entre button e o item Fipower do react e transição(tempo) da mudança de cor do button */
+    border: 1px solid #dcdce6;
+    background:transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+}
+
+.profile-container header button:hover{
+    border-color: #999;                 /*estiliza cor button ao passar mouse */
+}
+
+.profile-container h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.profile-container ul{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); /*estilo grid com 2 colunas*/
+    grid-gap: 24px;  /*distancia entre as grid verticalmente*/
+    list-style:none;  /*retira a bolinha que vem da tag*/ 
+}
+
+.profile-container ul li {
+    background:#FFF;
+    padding: 24px; /*distanciamento entre as li*/
+    border-radius: 8px; 
+    position: relative;/*pega o button deletar(react) e alinha ao lado direto da ul/li*/
+}
+
+.profile-container ul li button {
+    position: absolute;
+    right: 24px;
+    top:24px;       
+    border:0;
+}
+
+.profile-container ul li button:hover{
+    opacity:0.8;  /*button do react(deletar), passar mouse diminui opacidade*/
+}
+
+.profile-container ul li strong{
+    display:block;
+    margin-bottom:16px; /*Estilizou cor e espaçamento dos itens dentro da li*/
+    color: #41414d;
+}
+
+.profile-container ul li strong:not(:first-child){ /*outra forma seria ul li p + strong*/
+    margin-top: 32px; /*espaçamento entre a tag strong e tag p apos a primeira (começa na segunda tag strong)*/
+}
+
+.profile-container ul li p{
+    color:#737380;
+    line-height: 21px; /*espaçamento entre as linhas das tags <p>*/
+    font-size: 16px;
+}

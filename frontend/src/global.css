@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box; /*Não soma as medidas junto ao padding.*/
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea{
+    font: 400 18px Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+form input {
+    width: 100%;
+    height: 60px;
+    color:#333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+form textarea {
+    width: 100%;
+    resize: vertical; /*só pode aumentar verticalmente*/
+    min-height: 140px;
+    height: 60px;
+    color:#333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
+
+.button{
+    width: 100%;
+    height:60px;
+    background:#e02041;
+    border:0;
+    border-radius:8px;
+    color:#FFF;
+    font-weight: 700;
+    margin-top:16px;
+    transition: 16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: 18px;
+    line-height: 60px;
+    transition: filter 0.2s; /*tempo para mudança da cor de filtro*/
+}
+
+.button:hover{
+    filter:brightness(90%); /*mudança de cor do botao em 10%*/ 
+}
+
+
+.back-link {
+    display: flex; /*tag <a> fica com propiedade flex igual ao container*/
+    align-items: center; /*apos a propiedade flex que alinha com distancias os itens, aqui é centralizado pois os itens(todos)no container ficam no centro da tela*/
+    margin-top: 40px; /*distancia do topo da margin, (criar distancia entre botao e o link da tag <a>)*/
+    color:#41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500; /*tam da fonte dos textos da tag <a>*/
+    transition: opacity 0.2s; /*Tempo transição perda de opacidade*/
+ 
+   }
+ 
+ 
+   .back-link  svg{
+     margin-right: 8px; /*distancia da img svg*/
+    
+    }
+ 
+   .back-link:hover{
+     opacity: 0.8; /*perde 0.2 de opacidade ao passar o mouse*/
+    
+    }
