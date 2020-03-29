@@ -3,7 +3,7 @@
 Este projeto é sobre uma aplicação que permite o registro de ONG's que desejam recolher fundos, através do contato pelo Whatsapp e E-mail,
 para ajudar pessoas com problemas, sendo um herói para estas pessoas necessitadas.
 O projeto contém o backend e o frontend, e o mobile para poder utilizar esta aplicação tanto em web-browsers quanto em android ou ios.
-Deve ser baixar todo o contéudo e instalar o node_modules através do gerenciador de pacotes NPM ou Yarn. O primeiro modulo a ser instalado é o express.
+Deve se baixar todo o contéudo e instalar o node_modules através do gerenciador de pacotes NPM ou Yarn. O primeiro modulo a ser instalado é o express.
 Os outros modulos, basta observar os import utilizados para poder instalar as dependencias corretamente com o gerenciador de pacotes.
 
 This project is about an application that allows the registration of ONG's that wish to collect funds, through contact via Whatsapp and E-mail,
