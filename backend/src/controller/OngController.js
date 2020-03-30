@@ -1,8 +1,9 @@
 //utilização da conexao para aplicar inserções no BD 
 const connection = require('../database/connection'); 
 
-//Utilização modulo de criptografia do express
-const crypto = require('crypto');
+const generateUniqueId = require('../Utils/generateUniqueId');
+
+
 
 
 module.exports = {
@@ -16,7 +17,7 @@ module.exports = {
     async create(req,res) {
         const { name, email, whatsapp, city, uf} = req.body; //desestruturação do objeto
 
-        const id = crypto.randomBytes(4).toString('HEX');
+        const id = generateUniqueId();
     
         //através do objeto connection, inserção de elemento(ong)
     await connection('ongs').insert({
