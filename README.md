@@ -18,3 +18,7 @@ para ayudar a las personas en problemas, siendo un héroe para los necesitados.
 El proyecto contiene el backend y el frontend, y el móvil para poder usar esta aplicación tanto en navegadores web como en Android o iOS.
 Debe descargar todo el contenido e instalar node_modules a través del administrador de paquetes NPM o Yarn. El primer módulo que se instalará es el express.
 Los otros módulos, solo mire las importaciones utilizadas para poder instalar las dependencias correctamente con el administrador de paquetes.
+
+
+![betheherocelphone](https://user-images.githubusercontent.com/54008916/83835001-0bcde600-a6c6-11ea-963b-a290a8f52ba5.png)
+
