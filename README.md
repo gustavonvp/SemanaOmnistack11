@@ -22,3 +22,34 @@ Los otros módulos, solo mire las importaciones utilizadas para poder instalar l
 
 ![betheherocelphone](https://user-images.githubusercontent.com/54008916/83835001-0bcde600-a6c6-11ea-963b-a290a8f52ba5.png)
 
+
+
+<h2>Tecnologias</h2>
+
+1 - [React](https://pt-br.reactjs.org/)
+2 - [Reac-Native](https://reactnative.dev/)
+3 - [SQL-Lite](https://www.sqlite.org/index.html)
+4 - [PostgreSQL](https://www.postgresql.org/)
+5 - [Expo](https://expo.io/)
+6 - [NodeJs](https://nodejs.org/en/)
+7 - [Android Studio](https://developer.android.com/studio)
+
+
+
+<h2>Dependências</h2>
+
+1 - [Axios](https://www.npmjs.com/package/axios)
+2 - [Babel](https://www.npmjs.com/package/@babel/core)
+3 - [Nodemon](https://www.npmjs.com/package/nodemon)
+4 - [Knex](http://knexjs.org/)
+5 - [Jest](https://jestjs.io/)
+6 - [SuperTest](https://www.npmjs.com/package/supertest)
+7 - [Celebrate](https://www.npmjs.com/package/celebrate)
+8 - [Cors](https://www.npmjs.com/package/cors)
+9 - [Express](https://expressjs.com/pt-br/)
+10 -[Cross-env](https://www.npmjs.com/package/cross-env)
+
+
+<blockquote>Para instalar estas dependências, utilizar o <b>NPM</b> ou <b><YARN</b></blockquote>
+<blockquote>Verificar os arquivos <b>package.json</b> de cada pasta, para verificar o nome exato de cada dependência</blockquote>
+<blockquote>Rodar o projeto de acordo com os <b>SCRIPTS</b> do <b>PACKAGE.JSON</b>, onde cada pasta, representa uma stack, a qual você irá escolher uma delas para rodar o projeto.</blockquote>
